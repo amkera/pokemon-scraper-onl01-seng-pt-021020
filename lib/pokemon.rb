@@ -1,6 +1,6 @@
 class Pokemon
   
-  attr_accessor :id, :name, :type, :db
+  attr_reader :id, :name, :type, :db
   
   #We want these to be attr_readers only, because we don't want to overwrite what's coming from the scraper class and database. 
   
